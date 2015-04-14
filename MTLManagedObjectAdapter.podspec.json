@@ -1,0 +1,27 @@
+{
+    "name": "MTLManagedObjectAdapter",
+    "version": "2.0",
+    "summary": "MTLManagedObjectAdapter is an adapter for the Mantle model framework that converts between MTLModel instances and Core Data managed objects.",
+    "homepage": "https://github.com/Mantle/MTLManagedObjectAdapter",
+    "license": "MIT",
+    "authors": {
+        "GitHub": "support@github.com"
+    },
+    "source": {
+        "git": "https://github.com/hankbao/MTLManagedObjectAdapter.git",
+        "tag": "1.0"
+    },
+    "source_files": "MTLManagedObjectAdapter",
+    "frameworks": "Foundation",
+    "platforms": {
+        "ios": "5.0",
+        "osx": "10.7"
+    },
+    "requires_arc": true,
+    "subspecs": [
+    {
+        "name": "extobjc",
+        "source_files": "MTLManagedObjectAdapter/extobjc"
+    }
+    ]
+}
