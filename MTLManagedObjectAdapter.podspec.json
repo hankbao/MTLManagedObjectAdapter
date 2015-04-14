@@ -17,10 +17,14 @@
         "ios": "5.0",
         "osx": "10.7"
     },
+    "dependencies": {
+        "Mantle": [
+        ]
+    },
     "requires_arc": true,
     "subspecs": [
     {
-        "name": "extobjc",
+        "name": "extbojc",
         "source_files": "MTLManagedObjectAdapter/extobjc"
     }
     ]
